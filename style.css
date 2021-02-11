@@ -1,0 +1,691 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Tajawal', sans-serif;
+  background-color: rgba(56, 173, 169, 1.0);
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+
+.header-title-container {
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  background: white;
+  border-top: 10px solid rgba(56, 173, 169, 1.0);
+}
+
+.title-div {
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.title-div h1 {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 5px 0;
+  color: rgba(60, 99, 130, 1.0);
+  text-align: center;
+  font-size: 36pt;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(56, 173, 169, 1.0);
+}
+
+.title-div p {
+  width: 100%;
+  margin: 0;
+  padding: 5px 0 0 0;
+  color: rgba(10, 61, 98, 0.8);
+  text-align: center;
+  font-size: 20pt;
+}
+
+.title-div a {
+  margin 0;
+  float: right;
+  padding: 5px 0 0;
+  text-decoration: none;
+  color: rgba(96, 163, 188, 1.0);
+}
+
+.title-div a:hover {
+  color: salmon;
+}
+
+.section1 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+.clock-container {
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  background: rgba(10, 61, 98, 0.8);
+  border-top: 10px solid rgba(56, 173, 169, 1.0);
+}
+
+.clock-title {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px 0 5px 0;
+}
+
+.clock-title h3 {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 5px 0;
+  color: rgba(223, 228, 234, 1.0);
+  text-align: center;
+  font-size: 26pt;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(56, 173, 163, 1.0);
+}
+
+.clock-date {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+#clock {
+  width: 100%;
+  margin: 0;
+  padding: 5px 0 5px 0;
+  float: hidden;
+  text-align: center;
+  font-size: 24pt;
+  color: rgba(223, 228, 234, 1.0);
+  letter-spacing: 4px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  font-family: 'PT Mono', monospace;
+}
+
+#date {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 20px 0;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  font-size: 18pt;
+  color: rgba(223, 228, 234, 1.0);
+  letter-spacing: 2px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.clock-container nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 45px 0 40px 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+.clock-container nav ul li {
+  display: inline;
+  margin: 0 10px;
+  padding: 0;
+}
+
+.clock-container nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 15px 10px;
+  background: rgba(10, 189, 227, 1.0);
+  border-radius: 5px;
+  font-family: inherit;
+  transition: ease-in-out 0.3s;
+}
+
+.clock-container nav ul li a:hover {
+  cursor: pointer;
+  background: rgba(16, 172, 132, 1.0);
+  padding: 20px 10px;
+}
+
+.section2 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+.ramadan-clndr-container {
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  background: white;
+  border-top: 10px solid rgba(56,173, 169, 1.0);
+  overflow: hidden;
+}
+
+.tables {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 10px 0;
+  float: left;
+  overflow: hidden;
+}
+
+.tables h4 {
+  width: 100%;
+  margin: 0;
+  padding: 12px 0 14px 0;
+  color: white;
+  text-align: center;
+  font-size: 24pt;
+  font-weight: 700;
+  border-bottom: 2px solid white;
+}
+
+.f10 {
+  background: rgba(255, 107, 107, 0.9);
+}
+
+.s10 {
+    background: rgba(243, 166, 131,1.0);
+    border-top: 10px solid rgba(56, 173, 169,1.0);
+}
+
+.l10 {
+  background: rgba(71, 71, 135, 0.8);
+  border-top: 10px solid rgba(56, 173, 169, 1.0);
+}
+
+.table{
+  width: 90%;
+  margin: 0 auto;
+}
+
+th {
+  font-size: 16pt;
+}
+
+td {
+  font-size: 14pt;
+  word-spacing: 10px;
+  letter-spacing: 1px;
+}
+
+.trr:hover {
+  background: rgba(60, 90, 130, 0.8) !important;
+  color: white !important;
+}
+
+.table-hover:hover {
+  cursor: pointer;
+}
+
+.section3 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+.extra-info-conatiner{
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    background: white;
+    border-top: 10px solid rgba(56, 173, 169,1.0);
+
+}
+
+.table2 th {
+    font-size: 11pt !important;
+    background: #7f8fa6;
+    color: white;
+}
+
+.table2 td {
+    font-size: 11pt !important;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    background: #dcdde1;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+.deve-info p{
+    width: 50%;
+    margin: 0 auto;
+    padding: 26px 0;
+    text-align: center;
+    font-size: 16pt;
+}
+.deve-info a{
+    margin: 0;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+    background: blue;
+    border-radius: 4px;
+    transition: ease-in-out 0.6s;
+}
+
+.deve-info a:hover{
+    color: salmon;
+    background: #273c75;
+    color: white;
+}
+
+/* Media query */
+
+@media all and (max-width: 913px){
+    .title-div{
+        width: 70%;
+    }
+
+}
+
+
+@media all and (max-width: 884px){
+    .title-div{
+        width: 75%;
+    }
+    .title-div h1{
+        font-size: 31pt;
+    }
+
+    .title-div p{
+        font-size: 18pt;
+
+    }
+    .clock-title{
+        width: 70%;
+    }
+    .clock-date{
+        width: 60%;
+    }
+    #clock{
+        font-size: 21pt;
+
+    }
+    #date{
+        font-size: 17pt;
+    }
+    .table{
+        width: 96%;
+
+    }
+    .tables h4{
+        font-size: 21pt;
+    }
+    th{
+        font-size: 16pt;
+    }
+    td{
+        font-size: 15pt;
+    }
+
+    .table2 th{
+        font-size: 11pt !important;
+
+    }
+    .table2 td{
+        font-size: 11pt !important;
+    }
+
+    .deve-info p{
+        width: 60%;
+        font-size: 14pt;
+    }
+}
+
+@media all and (max-width: 672px){
+    .title-div{
+        width: 86%;
+    }
+    .title-div h1{
+        font-size: 25pt;
+    }
+
+    .title-div p{
+        font-size: 16pt;
+
+    }
+    .clock-title{
+        width: 84%;
+    }
+    .clock-title h3{
+
+        font-size: 22pt;
+
+    }
+    .clock-date{
+        width: 78%;
+    }
+    #clock{
+        font-size: 19pt;
+
+    }
+    #date{
+        font-size: 15pt;
+    }
+
+    .tables h4{
+        font-size: 19pt;
+    }
+    th{
+        font-size: 15pt;
+    }
+    td{
+        font-size: 14pt;
+        word-spacing: 2px;
+        letter-spacing: 0px;
+    }
+
+    .table2 th{
+        font-size: 10pt !important;
+
+    }
+    .table2 td{
+        font-size: 10pt !important;
+    }
+
+    .deve-info p{
+        width: 84%;
+        font-size: 14pt;
+    }
+
+}
+
+@media all and (max-width: 478px){
+    .title-div{
+        width: 92%;
+    }
+    .title-div h1{
+        font-size: 23pt;
+    }
+
+    .title-div p{
+        font-size: 15pt;
+
+    }
+    .title-div a{
+        padding-top: 12px;
+        font-size: 10pt;
+    }
+    .clock-title{
+        width: 90%;
+    }
+    .clock-title h3{
+
+        font-size: 17pt;
+
+    }
+    .clock-date{
+        width: 88%;
+    }
+    #clock{
+        font-size: 17pt;
+
+    }
+    #date{
+        font-size: 15pt;
+    }
+
+    .tables h4{
+        font-size: 17pt;
+    }
+    th{
+        font-size: 14pt;
+    }
+    td{
+        font-size: 13pt;
+    }
+
+    .table2 th{
+        font-size: 10pt !important;
+
+    }
+    .table2 td{
+        font-size: 10pt !important;
+    }
+
+    .deve-info p{
+        width: 88%;
+        font-size: 14pt;
+    }
+
+}
+
+
+
+
+
+@media all and (max-width: 382px){
+
+    .header-title-container{
+        width: 96%;
+    }
+    .title-div{
+        width: 95%;
+    }
+    .title-div h1{
+        font-size: 17pt;
+    }
+
+    .title-div p{
+        font-size: 14pt;
+
+    }
+    .title-div a{
+        padding-top: 12px;
+        font-size: 9pt;
+    }
+    .clock-container{
+        width: 96%;
+
+    }
+    .clock-title{
+        width: 94%;
+    }
+    .clock-title h3{
+
+        font-size: 15pt;
+
+    }
+    .clock-date{
+        width: 92%;
+    }
+    #clock{
+        font-size: 14pt;
+
+    }
+    #date{
+        font-size: 13pt;
+    }
+    .ramadan-clndr-container{
+        width: 96%;
+
+    }
+    .tables h4{
+        font-size: 13pt;
+    }
+    th{
+        font-size: 12pt;
+    }
+    td{
+        font-size: 11pt;
+    }
+    .extra-info-conatiner{
+        width: 96%;
+
+    }
+    .table2 th{
+        font-size: 9pt !important;
+
+    }
+    .table2 td{
+        font-size: 9pt !important;
+
+    }
+    .footer-container{
+
+        width: 96%;
+
+    }
+
+}
+
+
+/* nav responsive */
+
+@media all and (max-width: 871px){
+
+    nav{
+        width: 80%;
+    }
+    .clock-container nav ul li a{
+
+        font-size: 14pt;
+
+    }
+}
+
+@media all and (max-width: 710px){
+
+    nav{
+        width: 82%;
+    }
+    .clock-container nav ul li a{
+
+        font-size: 13pt;
+
+    }
+}
+
+@media all and (max-width: 629px){
+
+    nav{
+        width: 83%;
+    }
+    .clock-container nav ul li a{
+
+        font-size: 12pt;
+
+    }
+}
+
+@media all and (max-width: 572px){
+
+    nav{
+        width: 84%;
+    }
+    .clock-container nav ul li a{
+
+        padding: 12px 8px;
+
+    }
+    .clock-container nav ul li a:hover{
+        padding: 14px 9px;
+
+    }
+
+}
+
+@media all and (max-width: 542px){
+
+    nav{
+        width: 86%;
+    }
+    .clock-container nav ul li a{
+
+        padding: 11px 7px;
+
+    }
+    .clock-container nav ul li a:hover{
+        padding: 13px 8px;
+
+    }
+
+}
+
+@media all and (max-width: 530px){
+
+    nav{
+        width: 90%;
+    }
+    .clock-container nav ul{
+        padding: 30px 0 0 0;
+
+
+    }
+    .clock-container nav ul li{
+        display: block;
+        padding-bottom: 46px;
+
+
+    }
+
+    .clock-container nav ul li a{
+
+        padding: 12px 52px;
+        font-size: 13pt;
+
+    }
+    .clock-container nav ul li a:hover{
+        padding: 12px 56px;
+
+    }
+
+}
+
+@media all and (max-width: 512px){
+
+    nav{
+        width: 94%;
+    }
+
+    .clock-container nav ul{
+        padding: 22px 0 0 0;
+
+
+    }
+    .clock-container nav ul li{
+        display: block;
+        padding-bottom: 45px;
+
+
+    }
+
+    .clock-container nav ul li a{
+
+        padding: 11px 50px;
+        font-size: 12pt;
+
+    }
+    .clock-container nav ul li a:hover{
+        padding: 11px 54px;
+
+    }
+
+}
